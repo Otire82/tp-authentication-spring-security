@@ -14,7 +14,7 @@ import com.wildcodeschool.spring.security.utils.BCryptManagerUtil;
 
 @Configuration
 // TODO : EnableWebSecurity and extends WebSecurityConfigurerAdapter
-public class WebSecurityConfig {
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	private final String adminRole = RoleEnum.ADMINISTRATOR.name();
 
