@@ -17,6 +17,6 @@ public class LoginController {
         if (!(auth instanceof AnonymousAuthenticationToken)) {
         return new ModelAndView("redirect:/errorAlreadyConnected") ;
         }
-    return new ModelAndView("redirect:/login") ;
+    return new ModelAndView("redirect:/login") ; // ("/login")
     }
 }
