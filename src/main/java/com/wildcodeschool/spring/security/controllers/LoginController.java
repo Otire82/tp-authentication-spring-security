@@ -14,5 +14,6 @@ public class LoginController {
     @GetMapping("/login")
     public ModelAndView loginGet() {
        // TODO : 
+       return "Welcome User";
     }
 }
