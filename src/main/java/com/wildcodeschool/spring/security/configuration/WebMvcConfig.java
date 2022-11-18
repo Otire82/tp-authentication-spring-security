@@ -36,5 +36,7 @@ public class WebMvcConfig implements WebMvcConfigurer{
         registry.addViewController("/auth").setViewName("auth/auth");
         registry.addViewController("/auth/admin").setViewName("auth/admin");
         registry.addViewController("/errorAlreadyConnected").setViewName("/errorAlreadyConnected");
+        registry.addViewController("/errorAccessUnAuthorised").setViewName("errorAccessUnAuthorised");
+        registry.addViewController("/error").setViewName("error");
     }
 }
